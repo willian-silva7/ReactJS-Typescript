@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { useRouteMatch, Link } from 'react-router-dom';
 import { FiChevronsLeft, FiChevronRight } from 'react-icons/fi';
 import { Header, RepositoryInfo, Issue } from './styles';
-import { Repositories } from '../Dashboard/styles';
 // import logoImg from '../../assets/logo.svg';
 import api from '../../services/api';
 
